@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ws.wolfsoft.kwiktaxi.KwikSignUpThree">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <customfonts.TextViewSFProDisplayBlack
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KWIK"
+            android:textSize="24.3sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="82dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="85dp"
+            android:orientation="vertical">
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1a1a1a"
+            android:gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/quickly_explore_new_places_and_touch_the_get_started_button_to_see_how_it_will_make_your_life_easier"
+            android:textSize="16.7sp"/>
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="Get Started"
+            android:background="@drawable/black_gradient"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="83dp"
+            android:layout_marginRight="83dp"
+            android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_above="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:background="#f1f1f1"/>
+
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</RelativeLayout>

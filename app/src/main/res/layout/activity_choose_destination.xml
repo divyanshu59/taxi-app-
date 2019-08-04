@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor"
+    android:orientation="vertical"
+    tools:context="ws.wolfsoft.kwiktaxi.ChooseDestinationActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/toolbar_choosedestination" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingTop="4dp"
+                android:background="#f1f1f1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_search" />
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Search for a Location"
+                    android:textColor="#8e8e93"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:paddingTop="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/ic_houseoutline" />
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:padding="15dp"
+                    android:text="Add Home"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:paddingTop="3dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:layout_marginTop="7dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="13dp"
+                    android:src="@drawable/ic_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surat Railway Station"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.0265"
+                        android:text="Lal Darwaja station rd, surat Gate, Varacha"
+                        android:textColor="#9f9fa1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:paddingTop="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="13dp"
+                    android:src="@drawable/ic_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vrajdham temple"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.0265"
+                        android:text="Near darbar chaukdi, manjalpur, vadodara"
+                        android:textColor="#9f9fa1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:paddingTop="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="13dp"
+                    android:src="@drawable/ic_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vadodara Railway station"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.0265"
+                        android:text="Jetalpur road, Vadodara"
+                        android:textColor="#9f9fa1"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f1f1f1"
+                android:paddingTop="3dp" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

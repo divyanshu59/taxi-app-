@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_clolor"
+    tools:context="ws.wolfsoft.kwiktaxi.SignUpWithSocialActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+    <include layout="@layout/toolbar"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingTop="7dp"
+                android:background="#f1f1f1"/>
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24.7sp"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:text="@string/quickly_log_in_with_one_touch"/>
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@color/sub_txt"
+        android:text="@string/you_can_choose_one_from_social_media_accounts_and_quickly_get_lost_or_create_a_new_one"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="68dp"
+        android:background="#f1f1f1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_facebookicon"/>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="22dp"
+                android:text="@string/facebook"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f1f1f1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/googleicon"/>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="22dp"
+                android:text="@string/google"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#f1f1f1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_twittericon"/>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="25dp"
+                android:text="@string/twitter"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f1f1f1"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="@color/bg_clolor"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="#f1f1f1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_plus"/>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="22dp"
+                android:text="@string/create_an_account"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="#f1f1f1"/>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ws.wolfsoft.kwiktaxi.KwikSignUpActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <customfonts.TextViewSFProDisplayBlack
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KWIK"
+            android:textSize="24.3sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="80dp"
+            android:gravity="center"/>
+
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1a1a1a"
+            android:gravity="center"
+            android:layout_marginTop="47dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/sign_in_to_easily_find_locations_around_you"
+            android:textSize="24.7sp"/>
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/login_or_register_to_discover_new_places_by_visiting"/>
+
+
+        <customfonts.EditTextSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email or username"
+            android:background="@drawable/gray_rect"
+            android:textColorHint="#6f6f6f"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="60dp"/>
+
+        <customfonts.EditTextSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/gray_rect"
+            android:textColorHint="#6f6f6f"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:gravity="center"
+            android:background="@drawable/white1_rect"
+            android:textColorHint="#6f6f6f"
+            android:textColor="#6f6f6f"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot your login details?"
+                android:textSize="12.5sp"
+                android:textColor="#bfbfbf"/>
+
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Get help sign in."
+                android:textSize="12.5sp"
+                android:textColor="#1a1a1a"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <View
+        android:layout_above="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I already have a membership"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:letterSpacing="0.0265"
+        android:gravity="center"
+        android:background="@color/bg_clolor"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"/>
+
+
+
+
+</RelativeLayout>

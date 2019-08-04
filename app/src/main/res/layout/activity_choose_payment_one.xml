@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor"
+    tools:context="ws.wolfsoft.kwiktaxi.ChoosePaymentActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/toolbar_choosepayment"/>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="60dp"
+                android:orientation="vertical">
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:paddingTop="4dp"
+                    android:background="#f1f1f1"/>
+
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"/>
+
+
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:text="@string/do_you_have_a_promo_card_or_a_gift_code"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_can_make_your_payment_quickly_and_easily_with_a_gift_card_or_gift_code"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#8e8e93"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"/>
+                <com.mukesh.OtpView
+                    android:id="@+id/otp_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other payment method"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginRight="17dp"
+                        android:layout_marginTop="38dp"
+                        android:textColor="#545454"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#f1f1f1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp"
+                        android:background="@color/white">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27sp"
+                        android:layout_marginRight="17sp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_mastercard"/>
+
+                        <customfonts.TextViewSFProDisplayMedium
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:text="***** 2045"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"/>
+
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_right_arrow"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="18dp"
+                        android:background="#f1f1f1"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="27sp"
+                        android:layout_marginRight="17sp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_mastercard"/>
+
+                        <customfonts.TextViewSFProDisplayMedium
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:text="Paytm"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"/>
+
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_right_arrow"/>
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+
+                        android:background="#f1f1f1"/>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_above="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+
+    <!--roughike bottombar library used-->
+
+
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="bottom"
+        app:bb_activeTabColor="#ffffff"
+        app:bb_badgesHideWhenActive="false"
+        app:bb_inActiveTabColor="#a4ebfe"
+        app:bb_showShadow="false"
+        app:bb_tabXmlResource="@xml/tab"
+        app:paddingStart="10dp"
+        app:bb_titleTextAppearance="@style/botoombar_textchange"
+        app:bb_titleTypeFace="fonts/Roboto-Regular.ttf" />
+
+
+
+
+
+
+
+</RelativeLayout>

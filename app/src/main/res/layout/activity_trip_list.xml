@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor"
+    tools:context="ws.wolfsoft.kwiktaxi.TripListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_left_arrow"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="5dp"
+                android:rotation="180"/>
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:id="@+id/title"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Chose Payment"
+                android:layout_gravity="center"
+                android:textSize="13sp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingTop="3dp"
+            android:background="#f1f1f1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/ic_search"/>
+
+            <customfonts.EditTextSFProDisplayRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search_for_a_location"
+                android:background="#00000000"
+                android:textColor="@color/black"
+                android:textColorHint="#8e8e93"
+                android:padding="18sp"
+                android:inputType="text"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="#f1f1f1"/>
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#8e8e93"
+            android:textSize="15sp"
+            android:text="You can quickly find\nrecent trips that you have done!"
+            android:gravity="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="30dp"
+            android:clipToPadding="false"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

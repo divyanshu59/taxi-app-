@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transperent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:tint="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_back"/>
+
+    <customfonts.TextViewSFProDisplaySemibold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="12.5sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8.5dp"
+        android:text="Facebook"/>
+
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow All"
+        android:textColor="@color/white"
+        android:layout_marginRight="23dp"
+        android:textSize="13.5sp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="right"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

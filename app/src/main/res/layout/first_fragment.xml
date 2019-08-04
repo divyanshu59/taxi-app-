@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_mastercard"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Cart Details"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify and complete your card information"
+        android:textSize="12sp"
+        android:textColor="#8e8e93"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="#f1f1f1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="17dp"
+        android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="Name"/>
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FATIH OCAK"
+            android:layout_marginLeft="40dp"
+            android:textSize="14sp"
+            android:textColor="#005bff"/>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#f1f1f1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="17dp"
+        android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="Security Code"/>
+
+
+        <customfonts.EditTextSFProDisplayRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transperent"
+            android:hint="Required"
+            android:textColorHint="#8e8e93"
+            android:layout_marginLeft="22dp"
+            android:textSize="14sp"
+            android:textColor="#005bff"/>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#f1f1f1"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

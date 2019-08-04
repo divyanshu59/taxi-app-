@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor"
+    tools:context="ws.wolfsoft.kwiktaxi.CreditCardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_left_arrow"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="3dp"
+                android:rotation="180"/>
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:id="@+id/title"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Chose Payment"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Save"
+                android:textColor="#8e8e93"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="5dp"
+               />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f1f1f1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+               android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"/>
+            <!--circleindicator used-->
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/view"
+                android:layout_gravity="bottom"
+                app:ci_drawable="@drawable/ic_circular_white"
+                app:ci_drawable_unselected="@drawable/ic_circular_gray"
+                android:layout_marginTop="20dp"
+                app:ci_height="5dp"
+                app:ci_width="5dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

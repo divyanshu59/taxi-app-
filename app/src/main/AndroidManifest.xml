@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ws.wolfsoft.kwiktaxi">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KwikListActivity" />
+        <activity android:name=".SignUpWithSocialActivity" />
+        <activity android:name=".KwikSignUpActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".KwikSignUpAlternativeActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".KwikSignUpThree" />
+        <activity android:name=".SignUpWithSocialAccountActivity" />
+        <activity
+            android:name=".ActivationCodeActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"  />
+        <activity
+            android:name=".EmailAddressActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".CreatPasswordActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"  />
+        <activity android:name=".CreatPasswordFullViewActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity
+            android:name=".AlertActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"  />
+        <activity android:name=".ChoosePaymentActivity" />
+        <activity android:name=".ChoosePaymentOneActivity" />
+        <activity android:name=".CreditCardActivity" />
+        <activity android:name=".EnterPhoneNumberActivity"
+            android:theme="@style/activity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".SignupWithMobileNumActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".InviteActivity" />
+        <activity android:name=".TripActivity" />
+        <activity android:name=".TripListActivity" />
+        <activity android:name=".HomePageActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDFNnP_L1EQ2Sd4QHSRFH6gfn_XnwoSwFw" />
+
+        <activity android:name=".HomePage2Activity" />
+        <activity android:name=".ChooseDestinationActivity" />
+        <activity android:name=".HomapageWithConfirmActivity" />
+        <activity android:name=".DriverActivity" />
+        <activity android:name=".AletActivtiy2" />
+        <activity android:name=".FeedbackActivity"></activity>
+    </application>
+
+</manifest>

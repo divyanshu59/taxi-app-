@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ws.wolfsoft.kwiktaxi.KwikSignUpActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <customfonts.TextViewSFProDisplayBlack
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KWIK"
+            android:textSize="24.3sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="81.5dp"
+            android:gravity="center"/>
+
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1a1a1a"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:letterSpacing="0.0365"
+            android:text="@string/do_you_have_problems_in_the_entrance"
+            android:textSize="23.7sp"/>
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.7sp"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Enter your username or email address
+and I will send you a link to re-enter
+your account"/>
+
+
+        <customfonts.EditTextSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/gray_rect"
+            android:textColorHint="#6f6f6f"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="62dp"/>
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:gravity="center"
+            android:background="@drawable/white1_rect"
+            android:textColorHint="#6f6f6f"
+            android:textColor="#6f6f6f"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you have any more questions?"
+                android:textSize="12sp"
+                android:textColor="#bfbfbf"/>
+
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try the Help Center."
+                android:textSize="12sp"
+                android:textColor="#1a1a1a"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <View
+        android:layout_above="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to login"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/bg_clolor"/>
+
+
+
+</RelativeLayout>

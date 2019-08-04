@@ -1,0 +1,32 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_homeicon"
+        title="Home"
+        badgeHidesWhenActive="true"
+        inActiveColor="#8e8e93"
+        activeColor="@color/black"
+        />
+    <tab
+        id="@+id/topchart"
+        icon="@drawable/ic_world"
+        title="Discover"
+        inActiveColor="#8e8e93"
+        activeColor="@color/black"
+        />
+    <tab
+        id="@+id/likeyou"
+        icon="@drawable/ic_percentage"
+        title="Offer"
+        inActiveColor="#8e8e93"
+        activeColor="@color/black"
+        />
+    <tab
+        id="@+id/notification"
+        icon="@drawable/ic_profileicon"
+        title="Profile"
+        inActiveColor="#8e8e93"
+        activeColor="@color/black"
+        />
+
+</tabs>

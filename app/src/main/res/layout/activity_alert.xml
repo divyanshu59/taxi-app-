@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ws.wolfsoft.kwiktaxi.AlertActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/red">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="Please fill in all fields"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/activation_toolbar"/>
+
+
+        <customfonts.TextViewSFProDisplayLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What’s your name?"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:letterSpacing="0.0365"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="85dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="12.5dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.EditTextSFProDisplayMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:hint="Mariam"
+                    android:textSize="15sp"
+                    android:textColorHint="@color/black"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:padding="15sp"
+                    android:maxLength="8"
+                    android:background="@color/transperent"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="12.5dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.EditTextSFProDisplayMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:hint="Surname"
+                    android:textSize="15sp"
+                    android:textColorHint="#6f6f6f"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:padding="15sp"
+                    android:maxLength="8"
+                    android:background="@color/transperent"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_above="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:orientation="vertical">
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#8e8e93"
+            android:gravity="center"
+            android:text="By continuing, I confirm that I have read"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8e8e93"
+                android:textSize="12sp"
+                android:text="and agree to the"/>
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8e8e93"
+                android:textSize="12sp"
+                android:text="and"
+                android:layout_marginRight="3dp"/>
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_above="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="18dp"
+        android:background="#f8f8f8"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <customfonts.TextViewSFProDisplayMedium
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_next_arrow"
+                android:tint="@color/black"
+                android:rotation="180"
+                android:layout_gravity="right|center" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

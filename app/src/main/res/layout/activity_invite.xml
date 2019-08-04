@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_clolor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/backgroundimg"
+            android:orientation="vertical">
+
+        <include layout="@layout/toolbar_invit"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+
+            <customfonts.TextViewSFProDisplaySemibold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginLeft="7dp"
+                android:letterSpacing="0.0200"
+                android:text="Connect with more friends"/>
+
+
+            <customfonts.TextViewSFProDisplayLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invite your Facebook friends to join Ride!"
+                android:textSize="10sp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:letterSpacing="0.0625"
+                android:textColor="@color/white"/>
+
+
+                <customfonts.TextViewSFProDisplaySemibold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="7dp"
+                    android:text="SEND INVITE (12)"
+                    android:layout_marginTop="18sp"
+                    android:letterSpacing="0.0625"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50000000"/>
+
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite"
+            android:textSize="13sp"
+
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="#8e8e93"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:clipToPadding="false"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--roughike bottombar library used-->
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="bottom"
+        app:bb_activeTabColor="#ffffff"
+        app:bb_badgesHideWhenActive="false"
+        app:bb_inActiveTabColor="#a4ebfe"
+        app:bb_showShadow="false"
+        app:bb_tabXmlResource="@xml/tab"
+        app:paddingStart="10dp"
+        app:bb_titleTextAppearance="@style/botoombar_textchange"
+        app:bb_titleTypeFace="fonts/Roboto-Regular.ttf" />
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:alpha="0.7"-->
+        <!--android:background="@drawable/invite_bg"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Kwik Taxi</string>
+    <string name="choose_an_account">Choose an Account</string>
+    <string name="quickly_log_in_with_one_touch">Quickly log In\nwith one touch</string>
+    <string name="you_can_choose_one_from_social_media_accounts_and_quickly_get_lost_or_create_a_new_one">You can choose one from social media accounts and quickly get lost or create a new one.</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="twitter">Twitter</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="do_you_have_problems_in_the_entrance">Do you have problems\nin the entrance?</string>
+    <string name="sign_in_to_easily_find_locations_around_you">Sign in to easily find\nlocations around you.</string>
+    <string name="quickly_explore_new_places_and_touch_the_get_started_button_to_see_how_it_will_make_your_life_easier">Quickly explore new places and touch the get started button to see how it will make your life easier!</string>
+    <string name="and">&amp;</string>
+    <string name="terms">Terms &amp; Condition</string>
+    <string name="three">3</string>
+    <string name="def">DEF</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="abc">ABC</string>
+    <string name="_4">4</string>
+    <string name="ghi">GHI</string>
+    <string name="_5">5</string>
+    <string name="jkl">JKL</string>
+    <string name="_6">6</string>
+    <string name="mno">MNO</string>
+    <string name="_7">7</string>
+    <string name="pqrs">PQRS</string>
+    <string name="_8">8</string>
+    <string name="tuv">TUV</string>
+    <string name="_9">9</string>
+    <string name="wxyz">WXYZ</string>
+    <string name="_0">0</string>
+    <string name="search_for_a_location">Search for a Location</string>
+    <string name="login_or_register_to_discover_new_places_by_visiting">Login or register to discover new\nplaces by visiting.</string>
+    <string name="create_a_password_for_your_account">Create a password for your account</string>
+    <string name="we_take_importance_to_feed_back_from_you_and_we_work_hard_to_make_it_the_best_please_select_the_problem_and_let_us_know">We take importance to feed back from you and\nwe work hard to make it the best, please select\nthe problem and let us know.</string>
+    <string name="do_you_have_a_promo_card_or_a_gift_code">Do you have a promo card\nor a gift code?</string>
+    <string name="you_can_make_your_payment_quickly_and_easily_with_a_gift_card_or_gift_code">You can make your payment quickly\nand easilywith a gift card or gift code</string>
+</resources>
+
